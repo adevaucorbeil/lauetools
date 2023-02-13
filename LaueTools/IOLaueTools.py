@@ -429,10 +429,11 @@ def readCalibParametersInFile(openfile, Dict_to_update=None, guessCCDLabel=True)
     # print('CCDcalib in readCalibParametersInFile of file: %s'%openfile, CCDcalib)
 
     if 'CCDLabel' not in CCDcalib:  #will recognise from pixelsize...
-        CCDcalib['CCDLabel'] = None# DEFAULT_CCDLABEL
+        CCDcalib['CCDLabel'] =  DEFAULT_CCDLABEL
         if guessCCDLabel:
             if 'pixelsize' in CCDcalib:
                 ps = CCDcalib['pixelsize']
+                ccdlabel = DEFAULT_CCDLABEL
                 if abs(ps-0.0795) < 0.004:
                     ccdlabel = 'MARCCD165'
                 elif abs(ps-0.073) <= 0.002:
@@ -451,7 +452,6 @@ def readCalibParametersInFile(openfile, Dict_to_update=None, guessCCDLabel=True)
                     ccdlabel = 'IMSTAR_bin2'
                 elif abs(ps-0.0252) <= 0.001:
                     ccdlabel = 'IMSTAR_bin1'
-
 
                 CCDcalib['CCDLabel'] = ccdlabel
 

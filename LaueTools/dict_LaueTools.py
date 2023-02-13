@@ -58,6 +58,7 @@ dict_Materials = {
     "Magnetite_fcc": ["Magnetite_fcc", [8.391, 8.391, 8.391, 90, 90, 90], "fcc", ],  # GS 225 fcc extinction
     "Magnetite": ["Magnetite", [8.391, 8.391, 8.391, 90, 90, 90], "dia"],  # GS 227
     "Magnetite_sc": ["Magnetite_sc", [8.391, 8.391, 8.391, 90, 90, 90], "no", ],  # no extinction
+    "Mg": ["Mg", [3.2095, 3.2095, 5.2104, 90, 90, 120], "no"],
     "NiTi": ["NiTi", [3.5506, 3.5506, 3.5506, 90, 90, 90], "fcc"],
     "Ni": ["Ni", [3.5238, 3.5238, 3.5238, 90, 90, 90], "fcc"],
     "NiO": ["NiO", [2.96, 2.96, 7.23, 90, 90, 120], "no"],
@@ -147,6 +148,7 @@ dict_Materials_short = {
     "Magnetite_fcc": ["Magnetite_fcc", [8.391, 8.391, 8.391, 90, 90, 90], "fcc", ],  # GS 225 fcc extinction
     "Magnetite": ["Magnetite", [8.391, 8.391, 8.391, 90, 90, 90], "dia"],  # GS 227
     "Magnetite_sc": ["Magnetite_sc", [8.391, 8.391, 8.391, 90, 90, 90], "no", ],  # no extinction
+    "Mg": ["Mg", [3.2095, 3.2095, 5.2104, 90, 90, 120], "no"],
     "NiTi": ["NiTi", [3.5506, 3.5506, 3.5506, 90, 90, 90], "fcc"],
     "Ni": ["Ni", [3.5238, 3.5238, 3.5238, 90, 90, 90], "fcc"],
     "NiO": ["NiO", [2.96, 2.96, 7.23, 90, 90, 120], "no"],

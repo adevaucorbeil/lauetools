@@ -845,7 +845,7 @@ def calc_xycam_backreflection(uflab, calib, energy=0, offset=None, verbose=0, re
     else:
         return xcam, ycam, th0
 
-def calc_xycam_transmission(uflab, calib, energy=0, offset=None, verbose=0, returnIpM=False,
+def calc_xycam_transmission(uflab, calib, energy=1, offset=None, verbose=0, returnIpM=False,
                                                                             pixelsize=165.0 / 2048,
                                                                             rectpix=RECTPIX):
     r"""
